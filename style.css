@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3F5FC;     
+    font-family: "Inter", sans-serif;
+}
+
+.caixa-1 {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    background-color: darkgreen;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: darkgray;
+}
+
+h1 {
+    position: relative;
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 15px;
+    color: lightgreen;
+    font-weight: bold;
+    margin-left: 0px;
+    text-align: center;
+}
+ 
+
+
+.caixa-2 {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 80px;
+    background-color: lightgray;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: darkgray;
+}
+
+nav {
+    position: relative;
+    top: 15px;
+    margin-left: 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+    transform: scale(1.9);
+    transition: 1s all;
+}
+ 
+
+.caixa-3 {
+    position: absolute;
+    width: 100%;
+    height: 465px;
+    top: 160px;
+    background-color: darkgreen;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: darkgray;
+}
+
+
+#l-nomeSobrenome {
+    position: relative;
+    text-align: center;
+    color: lightgreen;
+    font-size: 18px;
+    top: 20px;
+    left: 175px;
+    
+}
+
+#nomeSobrenome {
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 300px;
+    height: 30px;
+    top: 50px;
+    left: -50px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+
+#l-email {
+    position: relative;
+    text-align: center;
+    color: lightgreen;
+    font-size: 18px;
+    top: 20px;
+    left: 210px;
+     
+}
+
+#email {
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 300px;
+    height: 30px;
+    top: 50px;
+    left: 40px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+
+#l-telefone {
+    position: relative;
+    text-align: center;
+    color: lightgreen;
+    font-size: 18px;
+    top: 20px;
+    left: 280px;
+
+}
+
+#telefone {
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 300px;
+    height: 30px;
+    top: 50px;
+    left: 100px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+
+
+#l-mensagem {
+    position: relative;
+    text-align: center;
+    color: lightgreen;
+    font-size: 18px;
+    top: 200px;
+    right: 530px;
+
+}
+
+#mensagem {
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 800px;
+    height: 100px;
+    top: 200px;
+    left: 280px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    background-color: lightgreen;
+
+
+
+}
+
+
+.enviar {
+    width: 100px;
+    height: 30px;
+    color: darkgreen;
+    position: relative;
+    top: 250px;
+    left: 630px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+
+
+@media screen and (max-width: 480px) {
+.caixa-1, .caixa-2, .caixa-3 {
+    width: 100%;
+    height: 100%;
+    }
+
+    .caixa-2 {
+        height: 100px;
+    }
+    nav {
+        top: 02px;
+        margin-left: -10px
+    }
+
+
+    #l-nomeSobrenome {
+        top: 95px;
+        left: 120px;
+
+    }
+
+    #nomeSobrenome {
+        top: 100px;
+        left: 50px;
+    }
+
+    #l-email {
+        top: 150px;
+        left: -130px;
+
+    }
+
+    #email {
+        top: 150px;
+        left: 50px;
+
+    }
+
+    #l-telefone {
+        top: 200px;
+        left: -140px;
+    }
+
+    #telefone {
+        top: 200px;
+        left: 50px;
+
+    }
+    #l-mensagem {
+        top: 250px;
+        left: -140px;
+}
+
+    #mensagem {
+        top: 250px;
+        left: 20px;
+        width: 90%;
+}
+
+    .enviar {
+    top: 280px;
+    left: 150px;
+ }
